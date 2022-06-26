@@ -153,6 +153,9 @@ ul li:hover:nth-child(6) a:after{
        display: flex;
        flex-direction: column;
        transform: translateX(20%);
+       top: 0;
+       margin-top: 50%;
+
    }
    ul li{
        list-style: none;
