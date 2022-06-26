@@ -152,8 +152,7 @@ ul li:hover:nth-child(6) a:after{
    ul{
        display: flex;
        flex-direction: column;
-       align-items: center;
-       justify-content: center;
+       transform: translateX(20%);
    }
    ul li{
        list-style: none;
