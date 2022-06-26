@@ -11,25 +11,29 @@ header{
     background-color: white;
     position: fixed;
     width: 100%;
-    height: 25vh;
+    height: 20vh;
+}
+header img{
+    height: 100%;
 }
 nav span{
     font-size: xx-large;
-    font-weight: 1000;
-    color: #ac2d31;
+    transform: translateY(-200px);
+    font-weight: 900;
+    color: #00233D;
 }
 ul{
     position: absolute;
     top: 55%;
-    left: 75%;
-    transform: translate(-50%, -50%);
+    left: 15%;
+    transform: translate(-10%, -10%);
     display: flex;
     margin: 0;
     padding: 0;
 }
 ul li{
     list-style: none;
-    margin: 0 50px;
+    margin: 0 30px;
 }
 ul li a .fa{
     font-size: 40px;
@@ -150,8 +154,6 @@ ul li:hover:nth-child(6) a:after{
    ul{
        display: flex;
        flex-direction: column;
-       padding-top: 140%;
-       left: 50%;
    }
    ul li{
        list-style: none;
