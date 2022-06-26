@@ -11,7 +11,7 @@ header{
     background-color: white;
     position: fixed;
     width: 100%;
-    height: 20vh;
+    height: 20%;
 }
 header img{
     height: 100%;
@@ -25,8 +25,6 @@ nav span{
 ul{
     position: absolute;
     top: 55%;
-    left: 15%;
-    transform: translate(-10%, -10%);
     display: flex;
     margin: 0;
     padding: 0;
@@ -150,14 +148,16 @@ ul li:hover:nth-child(6) a:before{
 ul li:hover:nth-child(6) a:after{
     background: #4F0E0E;
 }
-@media(max-width: 700px){
+@media screen and (max-width: 480px){
    ul{
        display: flex;
        flex-direction: column;
+       align-items: center;
+       justify-content: center;
    }
    ul li{
        list-style: none;
-       margin: 50px;
+       margin: 30px;
     }
     header{
         z-index: 1;
