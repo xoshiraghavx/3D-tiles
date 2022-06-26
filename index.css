@@ -157,6 +157,9 @@ ul li:hover:nth-child(6) a:after{
        margin-top: 50%;
 
    }
+     header img{
+    height: 70%;
+}
    ul li{
        list-style: none;
        margin: 30px;
