@@ -27,11 +27,11 @@ ul{
     top: 55%;
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 1%;
 }
 ul li{
     list-style: none;
-    margin: 0 30px;
+    margin: 10px;
 }
 ul li a .fa{
     font-size: 40px;
@@ -44,7 +44,7 @@ ul li a span{
     padding: 0;
     margin: 0;
     position: absolute;
-    top: 30px; 
+    top: 25px; 
     letter-spacing: 4px;
     color: #262626;
     transition: .5s;
@@ -53,8 +53,8 @@ ul li a{
     text-decoration: none;
     display: absolute;
     display: block;
-    width: 210px;
-    height: 80px;
+    width: 200px;
+    height: 70px;
     background: #fff;
     text-align: left;
     padding-left: 20px;
@@ -157,7 +157,7 @@ ul li:hover:nth-child(6) a:after{
        margin-top: 50%;
 
    }
-     header img{
+   header img{
     height: 70%;
 }
    ul li{
